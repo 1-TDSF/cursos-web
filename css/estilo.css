@@ -1,8 +1,3 @@
-h2{
-  color: blue;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
 #container {
   background-color: #1860f366;
   margin-left:20%;
@@ -11,6 +6,7 @@ h2{
   height:600px;
   font-family:'Calibri','Arial' sans-serif;
 
+
 }
 #lista{
 color: blue;
@@ -18,8 +14,51 @@ font-family: 'Arial';
 text-decoration: underline;
 text-decoration-style: dotted;
 }
-div#container:hover {
-background-color:orange;
+
+nav{
+  background-color: #1b1a1a;
+  padding: 0.02% 0 0.02% 0;
+  border-radius: 15px;
+
+}
+#menu-vert li{
+  display: inline;
+  padding: 0 5% 0 6%;
+}
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "tahoma", serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.5s, font-size 0.5s;
+  padding: 2% 1% 2% 1%;
+}
+
+/* PSEUDO CLASSES */
+#menu-vert li a:VISITED{
+  color: white;
+}
+#menu-vert li a:LINK{
+  color: white;
+}
+#menu-vert li a:HOVER{
+  color: blue;
+  font-size: 19px;
+}
+/* classes */
+.tit-pag-init{
+  position: absolute;
+  left: 43%;
+
+}
+.img-logo-init{
+  padding: 1%;
+  width: 10%;
 
 
+}
+.img-container{
+  position: absolute;
+  top: 13%;
 }
