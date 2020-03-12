@@ -9,9 +9,47 @@
 }
 
 nav{
-  background-color: #cecece;
-  
+  background-color: #1b1a1a;
+  padding: 0.02% 0 0.02% 0;
+  border-radius: 15px;
 }
 #menu-vert li{
   display: inline;
+  padding: 0 4% 0 4%;
+}
+
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  transition:color 2s;
+  padding: 2%;
+}
+
+/* PSEUDO CLASSES */
+#menu-vert li a:VISITED{
+  color:#fff;
+}
+#menu-vert li a:LINK{
+  color:#fff;
+}
+#menu-vert li a:HOVER{
+  color:#1b1a1a;
+  background-color: #fff;
+}
+
+/* SELEÇÃO DE CLASSES */
+.tit-pag-init{
+  position: absolute;
+  right:42%;
+}
+.img-logo-init{
+  width: 10%;
+}
+.img-container{
+  position: relative;
+  top:10%;
 }
