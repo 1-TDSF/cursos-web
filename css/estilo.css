@@ -1,5 +1,61 @@
-h2{
-  color:#0000ff;
+
+#container{
+  background-color: #0;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+  font-family: 'Calibri', 'Arial',sans-serif;
+}
+
+
+nav{
+  background-color: #1b1a1a;
+  padding:0.02% 0 0.02% 0;
+  border-radius: 20px;
+}
+
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
+}
+
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma", serif;
+  color: #0fffff;
   font-weight: bold;
   letter-spacing: 1px;
+  transition: color 2s;
+  font-size: 20px;
+  padding: 2%;
+
+}
+#menu-vert li a:VISITED{
+  color:#fff;
+}
+
+#menu-vert li a:LINK{
+  color:#fff;
+}
+
+#menu-vert li a:HOVER{
+    color:#1b1a1a;
+    background-color:#fff;
+}
+
+.tit-pag-init{
+  position: absolute;
+  right: 45%;
+  color: #f75c09;
+  transition: color 2s;
+
+}
+
+.img_logo{
+  width: 50%;
+}
+
+.img_container{
+  position:relative;
+  top: 10%;
 }
