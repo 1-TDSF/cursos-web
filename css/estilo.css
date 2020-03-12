@@ -1,0 +1,26 @@
+h2 {
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#container {
+  background-color:#f2dff5;
+  margin-left:20%;
+  margin-right:20%;
+  height:400px;
+  font-family:'Calibri', 'Arial', sans-serif;
+  border: 2px solid #755373;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul, p{
+  color: #724fb7;
+  font-family: 'Georgia';
+  text-align: center;
+}
