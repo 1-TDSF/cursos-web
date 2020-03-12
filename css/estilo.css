@@ -1,45 +1,94 @@
 /* Alô mamãe meu primeiro CSS*/
 
-h2{
-  color:#0000ff;
-  font-weight: bold;
-  letter-spacing: 1px;
-
+#container{
+  background-color: #ecdfcc;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+  font-family: 'calibri','Arial',sans-serif;
 }
 
-ul{
-  color:#2a9a61;
-  font-family: 'Georgia';
+nav{
+  background-color: #1b1a1a;
+  padding:0.02% 0 0.02% 0;
+  border-radius: 15px;
+}
+
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
+}
+
+#menu-vert li a{
+text-decoration: none;
+font-family: "Tahoma", serif;
+color: #fff;
+font-weight: bold;
+letter-spacing: 1px;
+font-size: 20px;
+transition: color 2s font-size 2s;
+padding: 2%;
+}
+
+/*Pseudo classes */
+
+#menu-vert li a:visited{
+  color: #fff;
+}
+
+#menu-vert li a:link{
+  color: #fff;
+}
+
+#menu-vert li a:hover{
+  color: #1b1a1a;
+  background-color: #fff;
+  font-size: 40px;
+}
+
+/*Seleção de classes */
+
+.tit-pag-init{
+position: absolute;
+right: 42%;
+}
+
+.img-log-init{
+  position: relative;
+  top: 10%;
+  width: 10%;
+}
+.img-container{
+  position:relative;
+  top:14%;
+  left:35%;
 }
 
 #java{
-
     background-color: white;
     color: black;
-    font-family: 'Lucida Console';
-
-
+    font-family: 'Arial';
   }
-  #php{
 
+  #php{
     background-color: white;
     color: blue;
-    font-family: 'Lucida Console';
+    font-family: 'Arial';
   }
   #python{
 
     background-color: black;
     color: red
-    font-family: 'Lucida Console'
+    font-family: 'Arial'
   }
   #ruby{
     background-color: black;
     color: red
-    font-family: 'Lucida Console'
+    font-family: 'Arial'
 
   }
   #c{
     background-color: black;
     color: white
-    font-family: 'Lucida Console'
+    font-family: 'Arial'
   }
