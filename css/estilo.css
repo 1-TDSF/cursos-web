@@ -1,24 +1,58 @@
-h1{
-  color: black;
-  font-family: "Times New Roman";
-  letter-spacing: 0.3px;
-}
-
-h2{
-  color: #c72d0a;
-  font-family: "Times New Roman";
-  font-weight: bold;
-  letter-spacing: 0.3px;
-}
-
 #container{
   background-color: #25a173;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 0 20% 0 20%;
   height: 600px;
+  font-family: 'Calibri', 'Arial', sans-serif;
 }
 
-a, ul{
-  color: #a50202;
-  font-family: "Georgia", "Atala", "Verdana", sans-serif;
+nav{
+  background-color: #1b1a1a;
+  padding: 0.02% 0% 0.02% 0;
+  border-radius: 15px;
+}
+
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
+}
+
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma", serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 2s;
+  padding: 2%;
+}
+
+/* PSEUDO CLASSES */
+#menu-vert li a:VISITED{
+  color: #fff;
+}
+
+#menu-vert li a:LINK{
+  color: #fff;
+}
+
+#menu-vert li a:HOVER{
+  color: #1b1a1a;
+  background-color: #fff;
+  font-size: 20px;
+}
+
+/* SELEÇÃO DE CLASSES */
+.tit-pag-init{
+  position: absolute;
+  right: 43%;
+}
+
+.img-logo-init{
+  width: 10%;
+}
+
+.img-container{
+  position: relative;
+  top: 10%;
+  left: 43%;
 }
