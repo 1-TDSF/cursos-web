@@ -1,0 +1,18 @@
+#container{
+  background-color:#14c526;
+  margin-left:20%;margin-right:20%;
+  height:600px;
+  font-family:'Calibri','Arial',sans-serif;
+}
+
+ul{
+color: #ff0000;
+font-family: "atala","verdana",serif;
+}
+
+h2{
+  color:#0000f;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
