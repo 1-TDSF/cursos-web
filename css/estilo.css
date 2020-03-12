@@ -1,17 +1,18 @@
-h2{
-  color:#040404;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
+
 #container{
-  background-color:#050505;
+  background-color:#8A2BE2;
   margin-left:20%;
   margin-right:20%;
   height:600px;
   font-family:'Calibri','Arial',sans-serif;
 }
 
-#menu{
-  color:#040404;
-  font-family:'Calibri','Arial',sans-serif;
+nav{
+background-color: #cecece;
+padding: 10% 0 10% 0;
+}
+
+#menu-vert li{
+  display: inline;
+
 }
