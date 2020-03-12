@@ -1,0 +1,62 @@
+/*Alõ mamãe meu primeiro CSS*/
+
+#container{
+background-color:#ecdfcc;
+margin-left: 20%;
+margin-right:20%;
+height:600px;
+font-family:'Calibre','Arial', sans-serif;
+
+}
+
+
+nav{
+background: #1b1a1a;
+padding: 0.02% 0 0.02% 0;
+border-radius: 15px;
+}
+
+#menu-vert li{
+display: inline;
+padding:0 4% 0 4%;
+}
+
+
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color:#fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  transition: color 2s;
+  padding: 2%
+}
+/*PSEUDO CLASSES */
+#menu-vert li a:VISITED{
+  color: #fff;
+}
+#menu-vert li a:LINK{
+color: #fff;
+}
+#menu-vert li a:HOVER{
+  color: #1b1a1a;
+  background-color: #fff;
+  font-size: 40px;
+}
+
+/*SELEÇÃO DE CLASSES*/
+.tit-pag-init{
+position: absolute;
+right: 42%;
+}
+.img-logo-init{
+position: relative;
+top:10%;
+width: 10%;
+}
+.img-container{
+  position: relative;
+  top: 10%;
+  left: 47%
+}
