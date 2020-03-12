@@ -1,18 +1,61 @@
 #container{
-  background-color:#47e8b1;
+  background-color:#8A2BE2;
   margin-left:20%;
   margin-right:20%;
   height:600px;
   font-family:'calibri','arial',sans-serif;
 }
 nav{
-    background-color: #cecece;
-    padding: 1% 0 1% 0;
+    background-color: #1b1a1a;
+    padding: 0.2% 0 0.2% 0;
+    border-radius: 15px;
 }
 #menu-vert li{
   display: inline;
+  padding:0 4.2% 0 4.2%;
+}
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 2s;
+  padding: 2.15%;
 }
 
-#8A2BE2
+/* Pseudo classes */
+
+#menu-vert li a:visited{
+  color:#fff;
+
+}
+
+#menu-vert li a:link{
+  color:#fff;
+}
+
+#menu-vert li a:hover{
+  color:#1b1a1a;
+  background-color: #fff;
+}
+
+/* Seleção de classes */
+
+.tit-pag-init{
+  position: absolute;
+  right: 43.5%;
+}
+.img-logo-init{
+  width: 10%;
+
+}
+
+.img-container{
+  position: relative;
+  top: 10%;
+  left: 31%;
+}
+
 color:#8A2BE2;
 font-family:"Atala","verdana",sans-serif;
