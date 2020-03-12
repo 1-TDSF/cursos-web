@@ -1,0 +1,45 @@
+/* Alô mamãe meu primeiro CSS*/
+
+h2{
+  color:#0000ff;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+ul{
+  color:#2a9a61;
+  font-family: 'Georgia';
+}
+
+#java{
+
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Console';
+
+
+  }
+  #php{
+
+    background-color: white;
+    color: blue;
+    font-family: 'Lucida Console';
+  }
+  #python{
+
+    background-color: black;
+    color: red
+    font-family: 'Lucida Console'
+  }
+  #ruby{
+    background-color: black;
+    color: red
+    font-family: 'Lucida Console'
+
+  }
+  #c{
+    background-color: black;
+    color: white
+    font-family: 'Lucida Console'
+  }
