@@ -1,0 +1,67 @@
+h1{
+  text-align: center;
+}
+#container{
+background-color:#1a1b1f;
+color:#adafbc;
+margin-left:20%;
+margin-right:20%;
+height:600px;
+}
+
+
+
+
+
+ nav{
+   background-color: #716868;
+   padding: 0.02% 0 0.02% 0;
+
+}
+
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
+
+}
+
+
+#menu-vert li a{
+   text-decoration: none;
+   font-family: "Tahoma", serif;
+   color: #fff;
+   font-weight: bold;
+   letter-spacing: 1px;
+   font-size: 20px;
+   transition: font-size 2s color 2s;
+   padding: 2%;
+}
+
+
+/*PSEUDO CLASSES */
+
+#menu-vert li a:VISITED{
+    color: #fff;
+}
+#menu-vert li a:LINK{
+    color: #fff;
+}
+#menu-vert li a:HOVER{
+    color: #1b1a1a;
+    background-color: #fff;
+
+}
+
+
+/*SELEÇÂO DE CLASSSES */
+.tit-pag-init{
+  position: absolute;
+  left:38%;
+
+}
+  .img-logo-init{
+    width: 10%;
+}
+ .img-container{
+   position: relative;
+   top: 10;
