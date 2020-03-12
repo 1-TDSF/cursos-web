@@ -1,7 +1,55 @@
 /*Primeiro CSS*/
 
-h2{
-  color:blue;
-  font-weight: bold;
-  letter-spacing: 1px
+nav{
+  background-color: #cc5a5a;
+  padding: 0.04% 0 0.04% 0;
+  border-radius: 55%;
+}
+
+#menu-vert li{
+  display: inline;
+  padding: 0 6% 0 6%;
+}
+
+#menu-vert li a {
+ text-decoration: none;
+ font-family: "Tahoma", serif;
+ color: #fdfdfd;
+ font-weight: bold;
+ letter-spacing: 1px;
+ font-size: 12px;
+ transition: color 2s font-size 2s;
+ padding:2%
+}
+
+
+
+/*PSEUDO CLASSES*/
+#menu-vert li a:visited{
+color: #100707;
+}
+#menu-vert li a:link{
+color: #fdfdfd;
+}
+#menu-vert li a:hover{
+color: #0a0a0a;
+background-color: #ffffff;
+font-size: 20px;
+}
+
+/*seleçao de classes */
+.tit-pag-init{
+  position: absolute;
+  left: 10%;
+}
+
+.img-logo-init{
+  position: fixed;
+  top: 10%;
+  width:10%;
+}
+
+.img-container{
+  position: relative;
+  top: 10%;
 }
