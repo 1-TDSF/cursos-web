@@ -1,0 +1,24 @@
+h1{
+  color: black;
+  font-family: "Times New Roman";
+  letter-spacing: 0.3px;
+}
+
+h2{
+  color: #c72d0a;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+#container{
+  background-color: #25a173;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+}
+
+a, ul{
+  color: #a50202;
+  font-family: "Georgia", "Atala", "Verdana", sans-serif;
+}
