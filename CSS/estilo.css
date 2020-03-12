@@ -1,7 +1,66 @@
 /*Alô mamae meu primeiro arquivo css */
 
-h2{
-  color: #ff1a1a;
+
+
+#container{
+background-color:#cc99ff;
+ margin-left: 20%;
+ margin-right:20%;
+ height: 600px;
+ font-family:'Calibri','Arial', sans-serif;
+}
+
+nav{
+background-color: #1b1a1a;
+padding: 0.02% 0 0.02% 0;
+border-radius: 10px;
+}
+
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
+}
+
+#menu-vert li a {
+  text-decoration: none;
+  font-family: "Tahoma", serif ;
+  color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
+  font-size: 20px;
+  transition: color 2s, font-size 2s;
+  padding: 2%;
+}
+
+/* pseudo classes */
+
+#menu-vert li a:VISITED{
+  color: #fff;
+}
+
+#menu-vert li a:LINK{
+  color: #fff;
+}
+
+#menu-vert li a:HOVER{
+  color: #1b1a1a;
+  background-color: #fff;
+  font-size: 40px;
+}
+
+
+/* SELEÇÃO DE CLASSES */
+.tit-pag-init{
+  position: absolute;
+  left: 42%;
+}
+
+.img-logo-init{
+  width: 10%;
+}
+
+.img-container{
+  position: relative;
+  top: 10%;
+  left: 20%;
 }
