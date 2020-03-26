@@ -1,7 +1,16 @@
+/* Adicionando arquivo de fonte local */
+
+@font-face {
+  font-family:Honey Bear;
+  src: local(Honey Bear), url(../fonts/Honey-Bear.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 #container{
   background-color: #25a173;
   margin: 0 20% 0 20%;
-  height: 600px;
+  height: 100%;
   font-family: 'Calibri', 'Arial', sans-serif;
 }
 
@@ -13,7 +22,7 @@ nav{
 
 #menu-vert li{
   display: inline;
-  padding: 0 4% 0 4%;
+  padding: 0 5.5% 0 5.5%;
 }
 
 #menu-vert li a{
@@ -23,7 +32,7 @@ nav{
   font-weight: bold;
   letter-spacing: 1px;
   transition: color 2s;
-  padding: 2%;
+  padding: 1.5% 2% 1.5% 2%;
 }
 
 /* PSEUDO CLASSES */
@@ -43,8 +52,9 @@ nav{
 
 /* SELEÇÃO DE CLASSES */
 .tit-pag-init{
-  position: absolute;
-  right: 43%;
+  font-family:'Lobster', cursive;
+  position: relative;
+  text-align: center;
 }
 
 .img-logo-init{
@@ -55,4 +65,5 @@ nav{
   position: relative;
   top: 10%;
   left: 43%;
+  height: 100%;
 }
