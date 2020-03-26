@@ -1,21 +1,63 @@
 /*Alô mamãe meu primeiro CSS*/
+/* Adicionando arquivo de fonte local*/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@font-face {
+  font-family: Honey Bear;
+  src: local(Honey Bear), url(../fonts/Honey-Bear.ttf);
+}
 
 #container{
   background-color:#ecdfcc;
   margin-left:20%;
   margin-right:20%;
-  height:600px;
-  font-family:'Calibri','Arial', sans-serif;
+  height:100%;
+  font-family:'Honey Bear','Arial', sans-serif;
 }
 
-ul{
-  color: #ff0000;
-  font-family: "Atala","verdana",serif;
+nav{
+  background-color: #1b1a1a;
+  padding: 0.02% 0 0.02% 0;
+  border-radius: 15px;
+}
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
 }
 
-h2{
-  color:#0000ff;
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
+  font-size: 20px;
+  transition:color 2s;
+  padding: 1.43% 2% 1.4% 2%;
+}
 
+/* PSEUDO CLASSES */
+#menu-vert li a:VISITED{
+  color:#fff;
+}
+#menu-vert li a:LINK{
+  color:#fff;
+}
+#menu-vert li a:HOVER{
+  color:#1b1a1a;
+  background-color: #fff;
+}
+
+/* SELEÇÃO DE CLASSES */
+.tit-pag-init{
+  font-family: 'Lobster', cursive;
+  position: relative;
+  text-align: center;
+}
+.img-logo-init{
+  width: 10%;
+}
+.img-container{
+  position: relative;
+  top:10%;
 }
