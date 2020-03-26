@@ -1,3 +1,9 @@
+/* Adicionando arquivo de fonte local */
+@font-face {
+  font-family: Honey Bear;
+  src: url(../fonts/Honey-Bear.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
 #container {
   background-color: #1860f366;
   margin-left:20%;
@@ -9,10 +15,10 @@
 
 }
 #lista{
-color: blue;
-font-family: 'Arial';
-text-decoration: underline;
-text-decoration-style: dotted;
+  color: blue;
+  font-family: 'Arial';
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 nav{
@@ -32,7 +38,7 @@ nav{
   font-weight: bold;
   letter-spacing: 1px;
   transition: color 0.5s, font-size 0.5s;
-  padding: 2% 1% 2% 1%;
+  padding: 1.445% 2% 1.4% 2%;
 }
 
 /* PSEUDO CLASSES */
@@ -45,16 +51,17 @@ nav{
 #menu-vert li a:HOVER{
   color: blue;
   font-size: 19px;
+  background-color: white;
 }
 /* classes */
 .tit-pag-init{
-  position: absolute;
-  left: 43%;
-
+  position: relative;
+  text-align: center;
+  font-family: 'Honey Bear', cursive;
 }
 .img-logo-init{
-  padding: 1%;
-  width: 10%;
+
+  width: 5%;
 
 
 }
