@@ -1,10 +1,23 @@
 /* Alô mamãe meu primeiro arquivo CSS*/
 
+
+/* ADICIONANDO ARQUIVO DE FONTE LOCAL */
+
+
+/* @fontface>  esta dizendo que estamos adicionando uma fonte*/
+
+@font-face {
+  font-family: Honey Bear;
+  src: local(Honey Bear),url(../fonts/Honey-Bear.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 #container {
 background-color:#03a9f4eb;
 margin-left:20%;
 margin-right:20%;
-height:600px;
+height:100%;
 font-family:'calibri', 'arial', sans-serif;
 }
 
@@ -28,7 +41,7 @@ nav {
   letter-spacing: 1px;
   font-size: 20px;
   transition: color 2s ;
-  padding: 2%;
+  padding: 1.43% 2% 1.4% 2%;
 }
 
 
@@ -44,14 +57,15 @@ nav {
 #menu-vert li a:HOVER{
   color: #1b1a1a;
   background-color: #fff;
-  font-size: 40px;
+  /*font-size: 40px;  serve para dar zoom quando o neg do mouse estiver em cima das palavras do menu (java, python...)*/
 }
 
 /* SELEÇÃO DE CLASSES */
 
 .tit-pag-init{
-  position: absolute;
-  right: 43%;
+  font-family: 'Lobster', cursive;
+  position: relative;
+  text-align: center;
 
 }
 
@@ -65,6 +79,4 @@ nav {
 .img-container{
   position: relative;
   top: 10%;
-  left: 47%;
-
 }
