@@ -1,10 +1,18 @@
 /*Alô mamãe meu primeiro CSS*/
 
+/* ADICIONANDO ARQUIVO DE FONTE LOCAL */
+@font-face {
+  font-family:Honey Bear;
+  src: local(Honey Bear),url(../fonts/Honey-Bear.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+ 
 #container{
   background-color:#ecdfcc;
   margin-left:20%;
   margin-right:20%;
-  height:600px;
+  height:100%;
   font-family:'Calibri','Arial', sans-serif;
 }
 
@@ -26,7 +34,7 @@ nav{
   letter-spacing: 1px;
   font-size: 20px;
   transition:color 2s;
-  padding: 2%;
+  padding: 1.43% 2% 1.4% 2%;
 }
 
 /* PSEUDO CLASSES */
@@ -43,8 +51,11 @@ nav{
 
 /* SELEÇÃO DE CLASSES */
 .tit-pag-init{
-  position: absolute;
-  right:42%;
+  /*font-family: 'Honey Bear', serif; */
+  font-family: 'Lobster', cursive;
+  position: relative;
+  text-align: center;
+
 }
 .img-logo-init{
   width: 10%;
