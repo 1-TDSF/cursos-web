@@ -1,8 +1,18 @@
+/* Adicionando arquivo de fonte local*/
+
+@font-face {
+  font-family: Honey Bear;
+  src: local(Honey Bear),url(../fonts/Honey-Bear.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet') ;
+
+
 
 #container{
   background-color:#F1EAE6;
   margin-left:20%;margin-right:20%;
-  height:600px;
+  height:100%;
   font-family:'Calibri','Arial', sans-serif
 }
 nav{
@@ -24,7 +34,7 @@ nav{
   font-weight: bold;
   letter-spacing: 1px;
   transition: color 2s;
-  padding: 2%;
+  padding: 1.43% 2% 1.4% 2%;
 }
 
 
@@ -46,18 +56,16 @@ nav{
 /* seleção de classes*/
 
 .tit-pag-init{
-  position: absolute;
-  right: 45%;
+  font-family: 'Spicy Rice', cursive;
+  position: relative;
+  text-align: center;
 }
 
 .img-logo-init{
   width: 10%;
-  position: relative;
-  top: 10%;
 }
 
 .img-container{
-  width: 10%;
   position: relative;
   top: 10%;
 }
