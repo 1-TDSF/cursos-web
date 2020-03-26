@@ -1,10 +1,22 @@
+
+
+/* ADICIONANDO FONTE LOCAL */
+
+@font-face {
+  font-family: Honey Bear;
+  src: local(Honey Bear),url(../fonts/Honey-Bear.ttf);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster&display=swap%27));
+
 #container{
   background-color:#8A2BE2;
   margin-left:20%;
   margin-right:20%;
-  height:600px;
+  height:100%;
   font-family:'calibri','arial',sans-serif;
 }
+
 nav{
     background-color: #1b1a1a;
     padding: 0.2% 0 0.2% 0;
@@ -20,8 +32,9 @@ nav{
   color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
+  font-size: 20px;
   transition: color 2s;
-  padding: 2.15%;
+  padding: 1.43% 2% 1.4% 2%;
 }
 
 /* Pseudo classes */
@@ -43,8 +56,10 @@ nav{
 /* Seleção de classes */
 
 .tit-pag-init{
-  position: absolute;
-  right: 43.5%;
+ /*  font-family: 'Honey Bear', serif; */
+  font-family: 'Lobster', cursive;
+  position: relative;
+  text-align: center;
 }
 .img-logo-init{
   width: 10%;
@@ -53,9 +68,5 @@ nav{
 
 .img-container{
   position: relative;
-  top: 10%;
-  left: 31%;
-}
 
-color:#8A2BE2;
-font-family:"Atala","verdana",sans-serif;
+}
