@@ -1,8 +1,16 @@
+/* Adicionando arquivo de fonte local */
+@font-face {
+  font-family: Honey Bear;
+  src: local(Honey Bear),url(../fonts/Honey-Bear.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 #container {
   background-color:#f2dff5;
   margin-left:20%;
   margin-right:20%;
-  height:600px;
+  height: 100%;
   font-family:'Calibri', 'Arial', sans-serif;
 }
 
@@ -43,8 +51,10 @@ nav {
 
 /*Seleção de classes*/
 .tit-pag-init {
-  position: absolute;
-  right: 42%;
+  /*font-family: "Honey Bear", serif;*/
+  font-family: 'Lobster', cursive;
+  position: relative;
+  text-align: center;
 }
 
 .img-logo-init {
