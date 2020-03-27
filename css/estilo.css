@@ -7,7 +7,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
- 
+
 #container{
   background-color:#ecdfcc;
   margin-left:20%;
@@ -19,11 +19,11 @@
 nav{
   background-color: #1b1a1a;
   padding: 0.02% 0 0.02% 0;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 #menu-vert li{
   display: inline;
-  padding: 0 4% 0 4%;
+  padding: 0 3% 0 4%;
 }
 
 #menu-vert li a{
