@@ -1,51 +1,65 @@
 /*Primeiro CSS*/
 
+/*ADICIONANDO ARQUIVO DE FONTE LOCAL*/
+@font-face {
+  font-family: Honey Bear;
+  src: local(Honey Bear),url(../fonts/Honey-Bear.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+#container{
+  background-color: #ecdfcc;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 600px;
+  font-family: 'Calibri','Arial',sans-serif;
+}
+
 nav{
-  background-color: #cc5a5a;
-  padding: 0.04% 0 0.04% 0;
-  border-radius: 55%;
+  background-color: #1b1a1a;
+  padding: 0.02% 0 0.02% 0;
+  border-radius: 15px;
 }
 
 #menu-vert li{
   display: inline;
-  padding: 0 6% 0 6%;
+  padding: 0 4% 0 4%;
 }
 
 #menu-vert li a {
  text-decoration: none;
  font-family: "Tahoma", serif;
- color: #fdfdfd;
+ color: #fff;
  font-weight: bold;
  letter-spacing: 1px;
- font-size: 12px;
- transition: color 2s font-size 2s;
- padding:2%
+ font-size: 20px;
+ transition: color 2s;
+ padding:1.43% 2% 1.4% 2%;
 }
 
 
 
 /*PSEUDO CLASSES*/
-#menu-vert li a:visited{
-color: #100707;
+#menu-vert li a:VISITED{
+color: #fff;
 }
-#menu-vert li a:link{
-color: #fdfdfd;
+#menu-vert li a:LINK{
+color: #fff;
 }
-#menu-vert li a:hover{
-color: #0a0a0a;
-background-color: #ffffff;
-font-size: 20px;
+#menu-vert li a:HOVER{
+color: #1b1a1a;
+background-color: #fff;
 }
 
 /*seleçao de classes */
 .tit-pag-init{
-  position: absolute;
-  left: 10%;
+  font-family: 'Lobster', serif;
+  position: relative;
+  text-align: center;
 }
 
 .img-logo-init{
-  position: fixed;
-  top: 10%;
   width:10%;
 }
 
